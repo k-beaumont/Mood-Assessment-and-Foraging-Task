@@ -1,0 +1,30 @@
+<html>
+    <head>
+      <title>End of Questionnaire</title>
+      <link rel="icon" type="image/x-icon" href="../DMtaskL1/pman.ico">
+      <!-- <meta http-equiv="refresh" content="https://app.prolific.co/submissions/complete?cc=7DC15A13"/> -->
+        <link href="../../jspsych-6.2.0/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+<div id="finish" style="width:800px; margin:0 auto;">
+<div class="jspsych-display-element" style="text-align: center">
+<div style="width: 100%;">
+<img style="display: block; margin: 0 auto; width: 200; height: auto;" width="200" src="../../UoBlogocolour.png" />
+</div>
+<p><b><h2>NOW IT IS TIME FOR PACMAN</h2></b></p>
+<p><br></p>
+<p id="pman_link"></p>
+<script>
+  var queryString = location.search.substring(1);
+  console.log("queryString")
+  console.log(queryString)
+  var url = "https://choicetask.com/kimberley/Study3/DMtaskL1/index.html?"+queryString
+  document.getElementById("pman_link").innerHTML = "<a href="+url+">click here now</a>";
+</script>
+</div></div>
+    </body>
+</html>
+
+
+    </body>
+</html>
